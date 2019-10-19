@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tic Tac toe</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <h1 class="heading">
+            Tic-Tac-Toe
+        </h1>
+    </header>
+
+    <div class="container">
+        <div class=box>
+            <table class="table" id="table">
+                <tr class="tr">
+                    <td onclick="change_cross(this.id)" id="one" class="td-top td-left td_main">&nbsp;</td>
+                    <td onclick="change_cross(this.id)" id="two" class="td-top td_main">&nbsp;</td>
+                    <td onclick="change_cross(this.id)" id="three" class="td-top td-right td_main">&nbsp;</td>
+                </tr>
+                <tr class="tr">
+                    <td onclick="change_cross(this.id)" id="four" class="td4 td-left td_main">&nbsp;</td>
+                    <td onclick="change_cross(this.id)" id="five" class="td5 td_main">&nbsp;</td>
+                    <td onclick="change_cross(this.id)" id="six" class="td6 td-right td_main">&nbsp;</td>
+                </tr>
+                <tr class="tr">
+                    <td onclick="change_cross(this.id)" id="seven" class="td-left td-bottom td_main">&nbsp;</td>
+                    <td onclick="change_cross(this.id)" id="eight" class="td-bottom td_main">&nbsp;</td>
+                    <td onclick="change_cross(this.id)" id="nine" class="td-right td-bottom td_main">&nbsp;</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <div class="result" id="result">
+        
+    </div>
+
+</body>
+
+</html>
