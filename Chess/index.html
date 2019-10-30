@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Chess</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <table>
+                <tr>
+                    <td onclick="getPiece(this.id)" id="8a"><img src="Pieces/rook_black.png"></td>
+                    <td onclick="getPiece(this.id)" id="8b" class="black_square"><img src="Pieces/knight_black.png">
+                    </td>
+                    <td onclick="getPiece(this.id)" id="8c"><img src="Pieces/bishop_black.png"></td>
+                    <td onclick="getPiece(this.id)" id="8d" class="black_square"><img src="Pieces/queen_black.png"></td>
+                    <td onclick="getPiece(this.id)" id="8e"><img src="Pieces/king_black.png"></td>
+                    <td onclick="getPiece(this.id)" id="8f" class="black_square"><img src="Pieces/bishop_black.png">
+                    </td>
+                    <td onclick="getPiece(this.id)" id="8g"><img src="Pieces/knight_black.png"></td>
+                    <td onclick="getPiece(this.id)" id="8h" class="black_square"><img src="Pieces/rook_black.png"></td>
+                </tr>
+                <tr>
+                    <td onclick="getPiece(this.id)" id="7a" class="black_square"><img src="Pieces/pawn_black.png"></td>
+                    <td onclick="getPiece(this.id)" id="7b"><img src="Pieces/pawn_black.png"></td>
+                    <td onclick="getPiece(this.id)" id="7c" class="black_square"><img src="Pieces/pawn_black.png"></td>
+                    <td onclick="getPiece(this.id)" id="7d"><img src="Pieces/pawn_black.png"></td>
+                    <td onclick="getPiece(this.id)" id="7e" class="black_square"><img src="Pieces/pawn_black.png"></td>
+                    <td onclick="getPiece(this.id)" id="7f"><img src="Pieces/pawn_black.png"></td>
+                    <td onclick="getPiece(this.id)" id="7g" class="black_square"><img src="Pieces/pawn_black.png"></td>
+                    <td onclick="getPiece(this.id)" id="7h"><img src="Pieces/pawn_black.png"></td>
+                </tr>
+                <tr>
+                    <td onclick="getPiece(this.id)" id="6a"></td>
+                    <td onclick="getPiece(this.id)" id="6b" class="black_square"></td>
+                    <td onclick="getPiece(this.id)" id="6c"></td>
+                    <td onclick="getPiece(this.id)" id="6d" class="black_square"></td>
+                    <td onclick="getPiece(this.id)" id="6e"></td>
+                    <td onclick="getPiece(this.id)" id="6f" class="black_square"></td>
+                    <td onclick="getPiece(this.id)" id="6g"></td>
+                    <td onclick="getPiece(this.id)" id="6h" class="black_square"></td>
+                </tr>
+                <tr>
+                    <td onclick="getPiece(this.id)" id="5a" class="black_square"></td>
+                    <td onclick="getPiece(this.id)" id="5b"></td>
+                    <td onclick="getPiece(this.id)" id="5c" class="black_square"></td>
+                    <td onclick="getPiece(this.id)" id="5d"></td>
+                    <td onclick="getPiece(this.id)" id="5e" class="black_square"></td>
+                    <td onclick="getPiece(this.id)" id="5f"></td>
+                    <td onclick="getPiece(this.id)" id="5g" class="black_square"></td>
+                    <td onclick="getPiece(this.id)" id="5h"></td>
+                </tr>
+                <tr>
+                    <td onclick="getPiece(this.id)" id="4a"></td>
+                    <td onclick="getPiece(this.id)" id="4b" class="black_square"></td>
+                    <td onclick="getPiece(this.id)" id="4c"></td>
+                    <td onclick="getPiece(this.id)" id="4d" class="black_square"></td>
+                    <td onclick="getPiece(this.id)" id="4e"></td>
+                    <td onclick="getPiece(this.id)" id="4f" class="black_square"></td>
+                    <td onclick="getPiece(this.id)" id="4g"></td>
+                    <td onclick="getPiece(this.id)" id="4h" class="black_square"></td>
+                </tr>
+                <tr>
+                    <td onclick="getPiece(this.id)" id="3a" class="black_square"></td>
+                    <td onclick="getPiece(this.id)" id="3b"></td>
+                    <td onclick="getPiece(this.id)" id="3c" class="black_square"></td>
+                    <td onclick="getPiece(this.id)" id="3d"></td>
+                    <td onclick="getPiece(this.id)" id="3e" class="black_square"></td>
+                    <td onclick="getPiece(this.id)" id="3f"></td>
+                    <td onclick="getPiece(this.id)" id="3g" class="black_square"></td>
+                    <td onclick="getPiece(this.id)" id="3h"></td>
+                </tr>
+                <tr>
+                    <td onclick="getPiece(this.id)" id="2a"><img src="Pieces/pawn_white.png"></td>
+                    <td onclick="getPiece(this.id)" id="2b" class="black_square"><img src="Pieces/pawn_white.png"></td>
+                    <td onclick="getPiece(this.id)" id="2c"><img src="Pieces/pawn_white.png"></td>
+                    <td onclick="getPiece(this.id)" id="2d" class="black_square"><img src="Pieces/pawn_white.png"></td>
+                    <td onclick="getPiece(this.id)" id="2e"><img src="Pieces/pawn_white.png"></td>
+                    <td onclick="getPiece(this.id)" id="2f" class="black_square"><img src="Pieces/pawn_white.png"></td>
+                    <td onclick="getPiece(this.id)" id="2g"><img src="Pieces/pawn_white.png"></td>
+                    <td onclick="getPiece(this.id)" id="2h" class="black_square"><img src="Pieces/pawn_white.png"></td>
+                </tr>
+                <tr>
+                    <td onclick="getPiece(this.id)" id="1a" class="black_square"><img src="Pieces/rook_white.png"></td>
+                    <td onclick="getPiece(this.id)" id="1b"><img src="Pieces/knight_white.png"></td>
+                    <td onclick="getPiece(this.id)" id="1c" class="black_square"><img src="Pieces/bishop_white.png">
+                    </td>
+                    <td onclick="getPiece(this.id)" id="1d"><img src="Pieces/queen_white.png"></td>
+                    <td onclick="getPiece(this.id)" id="1e" class="black_square"><img src="Pieces/king_white.png"></td>
+                    <td onclick="getPiece(this.id)" id="1f"><img src="Pieces/bishop_white.png"></td>
+                    <td onclick="getPiece(this.id)" id="1g" class="black_square"><img src="Pieces/knight_white.png">
+                    </td>
+                    <td onclick="getPiece(this.id)" id="1h"><img src="Pieces/rook_white.png"></td>
+                </tr>
+            </table>
+        </div>
+       
+    </div>
+
+
+</body>
+
+</html>
