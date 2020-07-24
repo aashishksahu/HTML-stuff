@@ -1,0 +1,45 @@
+h2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+input,
+select {
+    border-radius: 0px;
+    border: 1px solid rgb(179, 176, 176);
+    padding: 5px;
+    width: 100%;
+    height: 40px;
+}
+
+input:hover,
+select:hover {
+    border-radius: 0px;
+    border: 1px solid rgb(112, 111, 111);
+    padding: 5px;
+    width: 100%;
+    height: 40px;
+}
+
+.container {
+    margin-top: 40px;
+    max-width: 70% !important;
+    border: 1px solid rgb(179, 176, 176);
+}
+
+.submit-col{
+    display: flex;
+}
+
+.submit-btn-grp{
+    width: 100px;
+    background: none;
+    border: 2px solid rgb(179, 176, 176);
+    margin-right: 20px;
+}
+
+.submit-btn-grp:hover{
+    border: 2px solid rgb(112, 111, 111);
+    width: 100px;
+    margin-right: 20px;
+}
