@@ -1,0 +1,10 @@
+.card{
+    color: aliceblue;
+    border-radius: 0;
+    text-align: center;
+}
+
+p{
+    margin-top: 1%;
+    font-size: small;
+}
