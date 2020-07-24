@@ -326,7 +326,10 @@ class PersonalInfoForm extends React.Component {
                             <input className='submit-btn-grp' type='reset'></input>
                         </div>
                     </div>
+                    <br></br>
+                    <br></br>
                 </div>
+                <br></br>
             </form>
         )
     }
