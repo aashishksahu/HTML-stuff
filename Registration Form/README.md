@@ -1,3 +1,6 @@
+## React Registration Form
+![Screenshot](https://github.com/aashishksahu/HTML-stuff/blob/master/Registration%20Form/public/screenshot.JPG)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
